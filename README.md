@@ -1,28 +1,28 @@
 MOJSGrid (Multi-objective Evolution based Dynamic Job Scheduler in Grid)
 ========================================================================
-# Compile: #
-## Extract “modjs.zip” ##
+## Compile: ##
+### Extract “modjs.zip” ###
 ```
 	$ tar -xvzf modjs.zip
 ```
-## Compile the source code ##
+### Compile the source code ###
 ```
 $ make
 ```
-## Go to folder “resource” ##
+### Go to folder “resource” ###
 ```
-	$ cd resource
-	$ gcc -c resource manager.c -o resource
+$ cd resource
+$ gcc -c resource manager.c -o resource
 ```
 Enter available resource information in “initial resource.in” in specified format.
-## Copy any job file from ”data” folder and name it ”job.in” for e.g. ##
+### Copy any job file from ”data” folder and name it ”job.in” for e.g. ###
 ```
-	$ cp data/DAS-2/job no pred.in job.in
+$ cp data/DAS-2/job no pred.in job.in
 ```
 Prepare hostfile.txt with ip address or domain name of all resources.
 
 
-# Command to run the job scheduler follows : #
+### Command to run the job scheduler follows : ###
 ```
 mpiexec -disable-hostname-propagation -hostfile hostfile.txt ./modjsg <plot>
 <NUM JOBS> <POPULATION> <GENERATION> <RANDOM INTEGER>
@@ -36,10 +36,10 @@ Range [200,1000]
 • <RANDOM INTEGER> - Any integer for randomize function seed.
 e.g. 
 ```
-		$ mpiexec -disable-hostname-propagation -hostfile hostfile.txt ./modjsg 0 100 400 300 432421
+$ mpiexec -disable-hostname-propagation -hostfile hostfile.txt ./modjsg 0 100 400 300 432421
 ```
 
-## Command to run resource manager : ##
+### Command to run resource manager : ###
 ```
 $ cd resource
 $ ./resource
@@ -47,5 +47,5 @@ $ ./resource
 
 To configure the selection criteria of schedule after final population of efficient schedule has been generated modify weight fun[] in report best() function in report.c file.
 
-#### Note: ####
+##### Note: #####
 Data sets are in other location 
