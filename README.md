@@ -1,28 +1,28 @@
-MOJSGrid (Multi-objective Evolution based Dynamic Job Scheduler in Grid)
+### MOJSGrid (Multi-objective Evolution based Dynamic Job Scheduler in Grid) ###
 ========================================================================
-## Compile: ##
-### Extract “modjs.zip” ###
+#### Compile: ####
+##### Extract “modjs.zip” #####
 ```
 	$ tar -xvzf modjs.zip
 ```
-### Compile the source code ###
+##### Compile the source code #####
 ```
 $ make
 ```
-### Go to folder “resource” ###
+##### Go to folder “resource” #####
 ```
 $ cd resource
 $ gcc -c resource manager.c -o resource
 ```
 Enter available resource information in “initial resource.in” in specified format.
-### Copy any job file from ”data” folder and name it ”job.in” for e.g. ###
+##### Copy any job file from ”data” folder and name it ”job.in” for e.g. #####
 ```
 $ cp data/DAS-2/job no pred.in job.in
 ```
 Prepare hostfile.txt with ip address or domain name of all resources.
 
 
-### Command to run the job scheduler follows : ###
+##### Command to run the job scheduler follows : #####
 ```
 mpiexec -disable-hostname-propagation -hostfile hostfile.txt ./modjsg <plot>
 <NUM JOBS> <POPULATION> <GENERATION> <RANDOM INTEGER>
@@ -39,7 +39,7 @@ e.g.
 $ mpiexec -disable-hostname-propagation -hostfile hostfile.txt ./modjsg 0 100 400 300 432421
 ```
 
-### Command to run resource manager : ###
+##### Command to run resource manager : #####
 ```
 $ cd resource
 $ ./resource
