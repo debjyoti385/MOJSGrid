@@ -1,0 +1,401 @@
+./a.out ../schedule_1.out
+job ID 0	pred ID-1	Pred end =0.000000	 ID start =0.000000
+job ID 1	pred ID0	Pred start= 0.000000	 exec time =26.250000 	 pred end= 26.250000	 ID start =1022.471910
+job ID 2	pred ID-1	Pred end =0.000000	 ID start =0.000000
+job ID 4	pred ID-1	Pred end =0.000000	 ID start =0.000000
+job ID 12	pred ID-1	Pred end =0.000000	 ID start =0.000000
+job ID 13	pred ID4	Pred start= 0.000000	 exec time =16.216216 	 pred end= 16.216216	 ID start =690.672289
+job ID 18	pred ID-1	Pred end =0.000000	 ID start =0.000000
+job ID 19	pred ID4	Pred start= 0.000000	 exec time =16.216216 	 pred end= 16.216216	 ID start =1350.577606
+error -1
+job ID 22	pred ID18	Pred start= 0.000000	 exec time =12.463259 	 pred end= 12.463259	 ID start =12.463259
+job ID 24	pred ID-1	Pred end =0.000000	 ID start =26.250000
+job ID 29	pred ID-1	Pred end =0.000000	 ID start =0.000000
+job ID 34	pred ID-1	Pred end =0.000000	 ID start =7.119008
+job ID 42	pred ID29	Pred start= 0.000000	 exec time =23.333333 	 pred end= 23.333333	 ID start =1036.324232
+job ID 43	pred ID-1	Pred end =0.000000	 ID start =0.000000
+job ID 44	pred ID24	Pred start= 26.250000	 exec time =15.000000 	 pred end= 41.250000	 ID start =1011.916203
+job ID 45	pred ID34	Pred start= 7.119008	 exec time =13.221016 	 pred end= 20.340024	 ID start =946.828126
+job ID 46	pred ID34	Pred start= 7.119008	 exec time =13.221016 	 pred end= 20.340024	 ID start =972.253156
+job ID 47	pred ID29	Pred start= 0.000000	 exec time =23.333333 	 pred end= 23.333333	 ID start =206.451245
+For ID 48 could not find pred id 31 in map
+job ID 49	pred ID-1	Pred end =0.000000	 ID start =16.216216
+job ID 50	pred ID-1	Pred end =0.000000	 ID start =20.340024
+job ID 51	pred ID48	Pred start= 400.698476	 exec time =24.408029 	 pred end= 425.106505	 ID start =571.621622
+job ID 52	pred ID34	Pred start= 7.119008	 exec time =13.221016 	 pred end= 20.340024	 ID start =27.463259
+job ID 53	pred ID34	Pred start= 7.119008	 exec time =13.221016 	 pred end= 20.340024	 ID start =41.250000
+job ID 54	pred ID-1	Pred end =0.000000	 ID start =12.463259
+job ID 55	pred ID52	Pred start= 27.463259	 exec time =30.000000 	 pred end= 57.463259	 ID start =1046.067415
+job ID 56	pred ID34	Pred start= 7.119008	 exec time =13.221016 	 pred end= 20.340024	 ID start =997.678187
+job ID 57	pred ID50	Pred start= 20.340024	 exec time =24.408029 	 pred end= 44.748053	 ID start =1804.494382
+job ID 58	pred ID-1	Pred end =0.000000	 ID start =11.187013
+job ID 59	pred ID54	Pred start= 12.463259	 exec time =25.965124 	 pred end= 38.428383	 ID start =57.463259
+job ID 60	pred ID-1	Pred end =0.000000	 ID start =0.000000
+job ID 61	pred ID-1	Pred end =0.000000	 ID start =25.842697
+job ID 62	pred ID49	Pred start= 16.216216	 exec time =35.135135 	 pred end= 51.351351	 ID start =602.702703
+job ID 63	pred ID53	Pred start= 41.250000	 exec time =28.750000 	 pred end= 70.000000	 ID start =702.096943
+error -1
+job ID 64	pred ID53	Pred start= 41.250000	 exec time =28.750000 	 pred end= 70.000000	 ID start =70.000000
+job ID 65	pred ID52	Pred start= 27.463259	 exec time =30.000000 	 pred end= 57.463259	 ID start =425.106505
+job ID 66	pred ID-1	Pred end =0.000000	 ID start =120.224719
+job ID 67	pred ID-1	Pred end =0.000000	 ID start =35.595042
+job ID 68	pred ID67	Pred start= 35.595042	 exec time =86.445103 	 pred end= 122.040145	 ID start =448.497533
+job ID 69	pred ID-1	Pred end =0.000000	 ID start =213.483146
+job ID 70	pred ID-1	Pred end =0.000000	 ID start =51.351351
+job ID 71	pred ID-1	Pred end =0.000000	 ID start =122.040145
+job ID 72	pred ID60	Pred start= 0.000000	 exec time =84.411100 	 pred end= 84.411100	 ID start =1060.732261
+job ID 73	pred ID-1	Pred end =0.000000	 ID start =23.333333
+job ID 74	pred ID68	Pred start= 448.497533	 exec time =84.411100 	 pred end= 532.908633	 ID start =1147.177364
+job ID 75	pred ID70	Pred start= 51.351351	 exec time =112.162162 	 pred end= 163.513513	 ID start =1107.152872
+job ID 76	pred ID-1	Pred end =0.000000	 ID start =84.411100
+job ID 77	pred ID65	Pred start= 425.106505	 exec time =23.391028 	 pred end= 448.497533	 ID start =791.416969
+job ID 78	pred ID73	Pred start= 23.333333	 exec time =505.000000 	 pred end= 528.333333	 ID start =532.908634
+job ID 79	pred ID-1	Pred end =0.000000	 ID start =393.579468
+job ID 80	pred ID60	Pred start= 0.000000	 exec time =84.411100 	 pred end= 84.411100	 ID start =537.993640
+job ID 81	pred ID-1	Pred end =0.000000	 ID start =0.000000
+job ID 82	pred ID-1	Pred end =0.000000	 ID start =44.748053
+job ID 83	pred ID76	Pred start= 84.411100	 exec time =309.168368 	 pred end= 393.579468	 ID start =1383.121645
+job ID 84	pred ID82	Pred start= 44.748053	 exec time =313.236372 	 pred end= 357.984425	 ID start =1610.000000
+job ID 85	pred ID66	Pred start= 120.224719	 exec time =93.258427 	 pred end= 213.483146	 ID start =2187.569600
+job ID 86	pred ID75	Pred start= 1107.152872	 exec time =314.697299 	 pred end= 1421.850171	 ID start =2230.283651
+job ID 87	pred ID-1	Pred end =0.000000	 ID start =163.513514
+job ID 88	pred ID82	Pred start= 44.748053	 exec time =313.236372 	 pred end= 357.984425	 ID start =617.319734
+job ID 89	pred ID71	Pred start= 122.040145	 exec time =84.411100 	 pred end= 206.451245	 ID start =1022.086216
+error -1
+job ID 90	pred ID70	Pred start= 51.351351	 exec time =112.162162 	 pred end= 163.513513	 ID start =86.213259
+job ID 91	pred ID-1	Pred end =0.000000	 ID start =38.428383
+job ID 92	pred ID91	Pred start= 38.428383	 exec time =315.735904 	 pred end= 354.164287	 ID start =2803.736265
+job ID 93	pred ID88	Pred start= 617.319734	 exec time =309.168368 	 pred end= 926.488102	 ID start =2002.475381
+job ID 94	pred ID-1	Pred end =0.000000	 ID start =718.918919
+job ID 95	pred ID-1	Pred end =0.000000	 ID start =354.164287
+job ID 96	pred ID-1	Pred end =0.000000	 ID start =1035.000000
+job ID 97	pred ID81	Pred start= 0.000000	 exec time =8.750000 	 pred end= 8.750000	 ID start =466.213259
+job ID 98	pred ID87	Pred start= 163.513514	 exec time =408.108108 	 pred end= 571.621622	 ID start =1692.290012
+job ID 99	pred ID-1	Pred end =0.000000	 ID start =528.333333
+job ID 100	pred ID80	Pred start= 537.993640	 exec time =201.366239 	 pred end= 739.359879	 ID start =1071.910112
+job ID 101	pred ID90	Pred start= 86.213259	 exec time =380.000000 	 pred end= 466.213259	 ID start =1851.666667
+job ID 102	pred ID87	Pred start= 163.513514	 exec time =408.108108 	 pred end= 571.621622	 ID start =1231.588464
+job ID 103	pred ID85	Pred start= 2187.569600	 exec time =42.714051 	 pred end= 2230.283651	 ID start =2538.435017
+job ID 104	pred ID99	Pred start= 528.333333	 exec time =506.666667 	 pred end= 1035.000000	 ID start =1564.864865
+error -1
+job ID 105	pred ID102	Pred start= 1231.588464	 exec time =308.151366 	 pred end= 1539.739830	 ID start =1442.622270
+job ID 106	pred ID98	Pred start= 1692.290012	 exec time =310.185369 	 pred end= 2002.475381	 ID start =2312.660750
+job ID 107	pred ID90	Pred start= 86.213259	 exec time =380.000000 	 pred end= 466.213259	 ID start =2358.333334
+error -1
+job ID 108	pred ID96	Pred start= 1035.000000	 exec time =506.666667 	 pred end= 1541.666667	 ID start =780.039927
+job ID 109	pred ID105	Pred start= 1442.622270	 exec time =316.774508 	 pred end= 1759.396778	 ID start =2522.471910
+job ID 110	pred ID102	Pred start= 1231.588464	 exec time =308.151366 	 pred end= 1539.739830	 ID start =1977.027027
+job ID 111	pred ID99	Pred start= 528.333333	 exec time =506.666667 	 pred end= 1035.000000	 ID start =1831.460674
+job ID 112	pred ID102	Pred start= 1231.588464	 exec time =308.151366 	 pred end= 1539.739830	 ID start =2387.837838
+error -1
+job ID 113	pred ID105	Pred start= 1442.622270	 exec time =316.774508 	 pred end= 1759.396778	 ID start =1759.396778
+job ID 114	pred ID106	Pred start= 2312.660750	 exec time =308.151366 	 pred end= 2620.812116	 ID start =2800.000000
+job ID 115	pred ID104	Pred start= 1564.864865	 exec time =412.162162 	 pred end= 1977.027027	 ID start =2170.786517
+job ID 116	pred ID-1	Pred end =0.000000	 ID start =307.865169
+job ID 117	pred ID104	Pred start= 1564.864865	 exec time =412.162162 	 pred end= 1977.027027	 ID start =3140.244268
+For ID 121 could not find pred id 31 in map
+error -1
+job ID 122	pred ID105	Pred start= 1442.622270	 exec time =316.774508 	 pred end= 1759.396778	 ID start =1759.396778
+job ID 123	pred ID113	Pred start= 1759.396778	 exec time =317.813113 	 pred end= 2077.209891	 ID start =2077.209892
+job ID 124	pred ID123	Pred start= 2077.209892	 exec time =309.168368 	 pred end= 2386.378260	 ID start =2970.660532
+For ID 125 could not find pred id 118 in map
+job ID 126	pred ID-1	Pred end =0.000000	 ID start =1128.378378
+error -1
+job ID 128	pred ID115	Pred start= 2170.786517	 exec time =351.685393 	 pred end= 2522.471910	 ID start =2522.471910
+job ID 129	pred ID123	Pred start= 2077.209892	 exec time =309.168368 	 pred end= 2386.378260	 ID start =2472.421287
+job ID 130	pred ID126	Pred start= 1128.378378	 exec time =412.162162 	 pred end= 1540.540540	 ID start =3291.891892
+error -1
+job ID 131	pred ID122	Pred start= 1759.396778	 exec time =396.250000 	 pred end= 2155.646778	 ID start =2155.646778
+job ID 132	pred ID-1	Pred end =0.000000	 ID start =357.984426
+For ID 133 could not find pred id 118 in map
+job ID 135	pred ID-1	Pred end =0.000000	 ID start =653.932584
+job ID 136	pred ID-1	Pred end =0.000000	 ID start =1539.739830
+error -1
+job ID 137	pred ID129	Pred start= 2472.421287	 exec time =14.540469 	 pred end= 2486.961756	 ID start =2486.961756
+job ID 138	pred ID-1	Pred end =0.000000	 ID start =78.750000
+job ID 139	pred ID-1	Pred end =0.000000	 ID start =1546.858838
+job ID 140	pred ID-1	Pred end =0.000000	 ID start =660.674157
+job ID 141	pred ID-1	Pred end =0.000000	 ID start =701.730834
+job ID 142	pred ID-1	Pred end =0.000000	 ID start =1413.483146
+error -1
+job ID 143	pred ID129	Pred start= 2472.421287	 exec time =14.540469 	 pred end= 2486.961756	 ID start =2486.961756
+error -1
+job ID 144	pred ID125	Pred start= 2620.812116	 exec time =311.202370 	 pred end= 2932.014486	 ID start =2861.666667
+job ID 145	pred ID131	Pred start= 2155.646778	 exec time =316.774508 	 pred end= 2472.421286	 ID start =3256.437871
+job ID 146	pred ID-1	Pred end =0.000000	 ID start =1856.027206
+job ID 147	pred ID137	Pred start= 2486.961756	 exec time =316.774508 	 pred end= 2803.736264	 ID start =2803.736265
+error -1
+job ID 148	pred ID147	Pred start= 2803.736265	 exec time =309.168368 	 pred end= 3112.904633	 ID start =2180.646778
+job ID 149	pred ID129	Pred start= 2472.421287	 exec time =14.540469 	 pred end= 2486.961756	 ID start =2932.584269
+job ID 150	pred ID147	Pred start= 2803.736265	 exec time =309.168368 	 pred end= 3112.904633	 ID start =3274.157303
+job ID 151	pred ID132	Pred start= 357.984426	 exec time =42.714051 	 pred end= 400.698477	 ID start =3301.185925
+job ID 152	pred ID150	Pred start= 3274.157303	 exec time =22.471910 	 pred end= 3296.629213	 ID start =3404.054054
+job ID 153	pred ID147	Pred start= 2803.736265	 exec time =309.168368 	 pred end= 3112.904633	 ID start =3371.666667
+job ID 154	pred ID151	Pred start= 3301.185925	 exec time =19.323023 	 pred end= 3320.508948	 ID start =3537.761919
+job ID 155	pred ID-1	Pred end =0.000000	 ID start =926.488102
+job ID 156	pred ID-1	Pred end =0.000000	 ID start =458.750000
+job ID 157	pred ID149	Pred start= 2932.584269	 exec time =341.573034 	 pred end= 3274.157303	 ID start =3301.351352
+job ID 158	pred ID-1	Pred end =0.000000	 ID start =669.900190
+job ID 159	pred ID141	Pred start= 701.730834	 exec time =310.185369 	 pred end= 1011.916203	 ID start =3342.696629
+job ID 160	pred ID157	Pred start= 3301.351352	 exec time =25.675676 	 pred end= 3327.027028	 ID start =3339.831971
+job ID 161	pred ID150	Pred start= 3274.157303	 exec time =22.471910 	 pred end= 3296.629213	 ID start =3377.027027
+error -1
+job ID 162	pred ID159	Pred start= 3342.696629	 exec time =22.471910 	 pred end= 3365.168539	 ID start =3365.168539
+error -1
+job ID 163	pred ID148	Pred start= 2180.646778	 exec time =380.000000 	 pred end= 2560.646778	 ID start =2560.646778
+job ID 164	pred ID-1	Pred end =0.000000	 ID start =2166.212575
+job ID 165	pred ID158	Pred start= 669.900190	 exec time =20.772099 	 pred end= 690.672289	 ID start =3359.154994
+job ID 166	pred ID-1	Pred end =0.000000	 ID start =1541.666667
+job ID 167	pred ID152	Pred start= 3404.054054	 exec time =25.675676 	 pred end= 3429.729730	 ID start =3455.980171
+job ID 168	pred ID148	Pred start= 2180.646778	 exec time =380.000000 	 pred end= 2560.646778	 ID start =3296.629213
+job ID 169	pred ID-1	Pred end =0.000000	 ID start =739.359879
+job ID 170	pred ID-1	Pred end =0.000000	 ID start =1421.850171
+job ID 171	pred ID169	Pred start= 739.359879	 exec time =20.340024 	 pred end= 759.699903	 ID start =3470.346189
+job ID 172	pred ID-1	Pred end =0.000000	 ID start =1540.540541
+job ID 173	pred ID159	Pred start= 3342.696629	 exec time =22.471910 	 pred end= 3365.168539	 ID start =3476.752270
+error -1
+job ID 174	pred ID161	Pred start= 3377.027027	 exec time =27.027027 	 pred end= 3404.054054	 ID start =3404.054054
+job ID 175	pred ID-1	Pred end =0.000000	 ID start =1002.247191
+job ID 176	pred ID168	Pred start= 3296.629213	 exec time =23.595506 	 pred end= 3320.224719	 ID start =3397.801040
+job ID 177	pred ID170	Pred start= 1421.850171	 exec time =20.772099 	 pred end= 1442.622270	 ID start =3483.783784
+job ID 178	pred ID175	Pred start= 1002.247191	 exec time =20.224719 	 pred end= 1022.471910	 ID start =3419.158065
+job ID 179	pred ID168	Pred start= 3296.629213	 exec time =23.595506 	 pred end= 3320.224719	 ID start =3436.666667
+job ID 180	pred ID178	Pred start= 3419.158065	 exec time =19.323023 	 pred end= 3438.481088	 ID start =3491.694504
+job ID 181	pred ID-1	Pred end =0.000000	 ID start =483.750000
+job ID 182	pred ID164	Pred start= 2166.212575	 exec time =21.357025 	 pred end= 2187.569600	 ID start =3456.756757
+job ID 183	pred ID166	Pred start= 1541.666667	 exec time =35.000000 	 pred end= 1576.666667	 ID start =3378.478017
+job ID 184	pred ID173	Pred start= 3476.752270	 exec time =20.772099 	 pred end= 3497.524369	 ID start =3516.219258
+job ID 185	pred ID181	Pred start= 483.750000	 exec time =25.000000 	 pred end= 508.750000	 ID start =3581.582144
+job ID 186	pred ID-1	Pred end =0.000000	 ID start =1759.550562
+job ID 187	pred ID176	Pred start= 3397.801040	 exec time =21.357025 	 pred end= 3419.158065	 ID start =3438.481088
+error -1
+job ID 188	pred ID177	Pred start= 3483.783784	 exec time =25.675676 	 pred end= 3509.459460	 ID start =3509.459460
+job ID 189	pred ID-1	Pred end =0.000000	 ID start =759.699903
+job ID 190	pred ID-1	Pred end =0.000000	 ID start =508.750000
+job ID 191	pred ID172	Pred start= 1540.540541	 exec time =24.324324 	 pred end= 1564.864865	 ID start =3497.524369
+error -1
+job ID 192	pred ID180	Pred start= 3491.694504	 exec time =23.595506 	 pred end= 3515.290010	 ID start =3515.290009
+job ID 193	pred ID188	Pred start= 3509.459460	 exec time =33.333333 	 pred end= 3542.792793	 ID start =3577.496950
+job ID 194	pred ID-1	Pred end =0.000000	 ID start =1782.022472
+job ID 195	pred ID179	Pred start= 3436.666667	 exec time =33.333333 	 pred end= 3470.000000	 ID start =3566.641361
+job ID 196	pred ID180	Pred start= 3491.694504	 exec time =23.595506 	 pred end= 3515.290010	 ID start =3559.110234
+job ID 197	pred ID195	Pred start= 3566.641361	 exec time =27.027027 	 pred end= 3593.668388	 ID start =3597.230444
+error -1
+job ID 198	pred ID191	Pred start= 3497.524369	 exec time =18.694889 	 pred end= 3516.219258	 ID start =3516.219258
+job ID 199	pred ID-1	Pred end =0.000000	 ID start =1576.666667
+job ID 200	pred ID-1	Pred end =0.000000	 ID start =1331.254583
+error -1
+job ID 201	pred ID193	Pred start= 3577.496950	 exec time =19.733494 	 pred end= 3597.230444	 ID start =3597.230444
+job ID 202	pred ID183	Pred start= 3378.478017	 exec time =19.323023 	 pred end= 3397.801040	 ID start =3458.821112
+job ID 203	pred ID202	Pred start= 3458.821112	 exec time =27.459033 	 pred end= 3486.280145	 ID start =3586.963264
+job ID 204	pred ID202	Pred start= 3458.821112	 exec time =27.459033 	 pred end= 3486.280145	 ID start =3566.623240
+job ID 205	pred ID199	Pred start= 1576.666667	 exec time =33.333333 	 pred end= 1610.000000	 ID start =3575.205328
+job ID 206	pred ID205	Pred start= 3575.205328	 exec time =29.493035 	 pred end= 3604.698363	 ID start =3616.963938
+job ID 207	pred ID187	Pred start= 3438.481088	 exec time =20.340024 	 pred end= 3458.821112	 ID start =3556.724851
+job ID 208	pred ID204	Pred start= 3566.623240	 exec time =20.340024 	 pred end= 3586.963264	 ID start =3593.668388
+job ID 209	pred ID191	Pred start= 3497.524369	 exec time =18.694889 	 pred end= 3516.219258	 ID start =3605.177649
+error -1
+job ID 210	pred ID201	Pred start= 3597.230444	 exec time =40.000000 	 pred end= 3637.230444	 ID start =3637.230444
+job ID 211	pred ID204	Pred start= 3566.623240	 exec time =20.340024 	 pred end= 3586.963264	 ID start =3627.649560
+job ID 212	pred ID207	Pred start= 3556.724851	 exec time =20.772099 	 pred end= 3577.496950	 ID start =3636.697432
+job ID 213	pred ID208	Pred start= 3593.668388	 exec time =25.675676 	 pred end= 3619.344064	 ID start =3657.570468
+job ID 214	pred ID-1	Pred end =0.000000	 ID start =3267.567568
+job ID 215	pred ID206	Pred start= 3616.963938	 exec time =19.733494 	 pred end= 3636.697432	 ID start =3641.881329
+job ID 216	pred ID206	Pred start= 3616.963938	 exec time =19.733494 	 pred end= 3636.697432	 ID start =3637.230444
+error -1
+job ID 217	pred ID216	Pred start= 3637.230444	 exec time =33.333333 	 pred end= 3670.563777	 ID start =3670.563777
+error -1
+job ID 218	pred ID217	Pred start= 3670.563777	 exec time =27.027027 	 pred end= 3697.590804	 ID start =3697.590804
+error -1
+job ID 219	pred ID211	Pred start= 3627.649560	 exec time =22.471910 	 pred end= 3650.121470	 ID start =3650.121470
+job ID 220	pred ID-1	Pred end =0.000000	 ID start =2585.646778
+job ID 221	pred ID204	Pred start= 3566.623240	 exec time =20.340024 	 pred end= 3586.963264	 ID start =3608.320290
+job ID 223	pred ID-1	Pred end =0.000000	 ID start =2847.603385
+For ID 224 could not find pred id 118 in map
+job ID 225	pred ID-1	Pred end =0.000000	 ID start =3210.810811
+For ID 226 could not find pred id 118 in map
+job ID 227	pred ID-1	Pred end =0.000000	 ID start =2867.943409
+error -1
+job ID 228	pred ID221	Pred start= 3608.320290	 exec time =33.561040 	 pred end= 3641.881330	 ID start =3641.881329
+error -1
+job ID 229	pred ID212	Pred start= 3636.697432	 exec time =19.733494 	 pred end= 3656.430926	 ID start =3656.430926
+For ID 230 could not find pred id 118 in map
+error -1
+job ID 231	pred ID225	Pred start= 3210.810811	 exec time =27.027027 	 pred end= 3237.837838	 ID start =2606.896778
+job ID 232	pred ID226	Pred start= 2951.337509	 exec time =19.323023 	 pred end= 2970.660532	 ID start =3650.121470
+error -1
+job ID 233	pred ID218	Pred start= 3697.590804	 exec time =18.694889 	 pred end= 3716.285693	 ID start =3700.284518
+job ID 234	pred ID-1	Pred end =0.000000	 ID start =3112.904632
+job ID 235	pred ID-1	Pred end =0.000000	 ID start =2155.646778
+error -1
+job ID 236	pred ID223	Pred start= 2847.603385	 exec time =20.340024 	 pred end= 2867.943409	 ID start =2560.646778
+job ID 237	pred ID219	Pred start= 3650.121470	 exec time =20.340024 	 pred end= 3670.461494	 ID start =3697.590804
+job ID 238	pred ID219	Pred start= 3650.121470	 exec time =20.340024 	 pred end= 3670.461494	 ID start =3670.563777
+error -1
+job ID 239	pred ID228	Pred start= 3641.881329	 exec time =23.750000 	 pred end= 3665.631329	 ID start =3665.631329
+job ID 240	pred ID223	Pred start= 2847.603385	 exec time =20.340024 	 pred end= 2867.943409	 ID start =3747.590804
+job ID 241	pred ID-1	Pred end =0.000000	 ID start =3320.224719
+job ID 242	pred ID234	Pred start= 3112.904632	 exec time =19.323023 	 pred end= 3132.227655	 ID start =3685.971354
+job ID 243	pred ID-1	Pred end =0.000000	 ID start =2865.168539
+job ID 244	pred ID-1	Pred end =0.000000	 ID start =2887.266432
+job ID 245	pred ID-1	Pred end =0.000000	 ID start =3132.227655
+error -1
+job ID 246	pred ID229	Pred start= 3656.430926	 exec time =20.772099 	 pred end= 3677.203025	 ID start =3677.203025
+job ID 247	pred ID239	Pred start= 3665.631329	 exec time =20.340024 	 pred end= 3685.971353	 ID start =3771.893365
+job ID 248	pred ID-1	Pred end =0.000000	 ID start =2529.971910
+job ID 249	pred ID229	Pred start= 3656.430926	 exec time =20.772099 	 pred end= 3677.203025	 ID start =3720.624543
+job ID 250	pred ID233	Pred start= 3700.284518	 exec time =20.340024 	 pred end= 3720.624542	 ID start =3740.964567
+job ID 251	pred ID232	Pred start= 3650.121470	 exec time =21.348315 	 pred end= 3671.469785	 ID start =3702.230444
+job ID 252	pred ID244	Pred start= 2887.266432	 exec time =19.323023 	 pred end= 2906.589455	 ID start =3815.713590
+error -1
+job ID 253	pred ID238	Pred start= 3670.563777	 exec time =31.666667 	 pred end= 3702.230444	 ID start =3702.230444
+job ID 254	pred ID243	Pred start= 2865.168539	 exec time =22.471910 	 pred end= 2887.640449	 ID start =3780.627614
+job ID 255	pred ID238	Pred start= 3670.563777	 exec time =31.666667 	 pred end= 3702.230444	 ID start =3704.277375
+job ID 256	pred ID-1	Pred end =0.000000	 ID start =3216.774824
+job ID 257	pred ID-1	Pred end =0.000000	 ID start =2887.640449
+job ID 258	pred ID238	Pred start= 3670.563777	 exec time =31.666667 	 pred end= 3702.230444	 ID start =3771.915129
+job ID 259	pred ID-1	Pred end =0.000000	 ID start =3237.837838
+job ID 260	pred ID246	Pred start= 3677.203025	 exec time =22.500000 	 pred end= 3699.703025	 ID start =3835.938309
+job ID 261	pred ID249	Pred start= 3720.624543	 exec time =20.340024 	 pred end= 3740.964567	 ID start =3803.897110
+job ID 262	pred ID243	Pred start= 2865.168539	 exec time =22.471910 	 pred end= 2887.640449	 ID start =3760.287590
+job ID 263	pred ID251	Pred start= 3702.230444	 exec time =33.333333 	 pred end= 3735.563777	 ID start =3821.915129
+job ID 264	pred ID244	Pred start= 2887.266432	 exec time =19.323023 	 pred end= 2906.589455	 ID start =3796.239453
+job ID 265	pred ID-1	Pred end =0.000000	 ID start =3119.472169
+job ID 266	pred ID255	Pred start= 3704.277375	 exec time =20.340024 	 pred end= 3724.617399	 ID start =3830.385526
+job ID 267	pred ID263	Pred start= 3821.915129	 exec time =31.081081 	 pred end= 3852.996210	 ID start =3880.882129
+job ID 268	pred ID262	Pred start= 3760.287590	 exec time =20.340024 	 pred end= 3780.627614	 ID start =3865.844806
+job ID 269	pred ID261	Pred start= 3803.897110	 exec time =35.000000 	 pred end= 3838.897110	 ID start =3858.936707
+job ID 270	pred ID252	Pred start= 3815.713590	 exec time =20.224719 	 pred end= 3835.938309	 ID start =3840.630686
+job ID 271	pred ID-1	Pred end =0.000000	 ID start =3281.862902
+job ID 272	pred ID262	Pred start= 3760.287590	 exec time =20.340024 	 pred end= 3780.627614	 ID start =3848.691548
+job ID 273	pred ID272	Pred start= 3848.691548	 exec time =19.323023 	 pred end= 3868.014571	 ID start =3868.014571
+job ID 274	pred ID259	Pred start= 3237.837838	 exec time =29.729730 	 pred end= 3267.567568	 ID start =3860.657410
+job ID 275	pred ID262	Pred start= 3760.287590	 exec time =20.340024 	 pred end= 3780.627614	 ID start =3838.897110
+error -1
+job ID 276	pred ID273	Pred start= 3868.014571	 exec time =23.750000 	 pred end= 3891.764571	 ID start =2975.646778
+job ID 277	pred ID-1	Pred end =0.000000	 ID start =3320.508948
+error -1
+job ID 278	pred ID263	Pred start= 3821.915129	 exec time =31.081081 	 pred end= 3852.996210	 ID start =3852.996210
+job ID 279	pred ID-1	Pred end =0.000000	 ID start =3236.097847
+job ID 280	pred ID269	Pred start= 3858.936707	 exec time =20.340024 	 pred end= 3879.276731	 ID start =3903.354039
+error -1
+job ID 281	pred ID279	Pred start= 3236.097847	 exec time =20.340024 	 pred end= 3256.437871	 ID start =2610.646778
+job ID 282	pred ID271	Pred start= 3281.862902	 exec time =19.323023 	 pred end= 3301.185925	 ID start =3852.996210
+error -1
+job ID 283	pred ID281	Pred start= 2610.646778	 exec time =22.500000 	 pred end= 2633.146778	 ID start =2633.146778
+job ID 284	pred ID266	Pred start= 3830.385526	 exec time =18.306022 	 pred end= 3848.691548	 ID start =3868.014571
+job ID 285	pred ID265	Pred start= 3119.472169	 exec time =20.772099 	 pred end= 3140.244268	 ID start =3885.578300
+job ID 286	pred ID-1	Pred end =0.000000	 ID start =3327.027027
+job ID 287	pred ID-1	Pred end =0.000000	 ID start =3351.351351
+job ID 288	pred ID274	Pred start= 3860.657410	 exec time =20.224719 	 pred end= 3880.882129	 ID start =3907.677618
+error -1
+job ID 289	pred ID283	Pred start= 2633.146778	 exec time =23.750000 	 pred end= 2656.896778	 ID start =2656.896778
+job ID 290	pred ID289	Pred start= 2656.896778	 exec time =25.000000 	 pred end= 2681.896778	 ID start =3927.000641
+job ID 291	pred ID286	Pred start= 3327.027027	 exec time =24.324324 	 pred end= 3351.351351	 ID start =3937.230443
+job ID 292	pred ID-1	Pred end =0.000000	 ID start =2584.396778
+job ID 293	pred ID276	Pred start= 2975.646778	 exec time =22.500000 	 pred end= 2998.146778	 ID start =3988.020714
+job ID 294	pred ID-1	Pred end =0.000000	 ID start =3540.965685
+error -1
+job ID 295	pred ID275	Pred start= 3838.897110	 exec time =31.666667 	 pred end= 3870.563777	 ID start =3870.563777
+job ID 296	pred ID-1	Pred end =0.000000	 ID start =3427.649560
+job ID 297	pred ID291	Pred start= 3937.230443	 exec time =33.333333 	 pred end= 3970.563776	 ID start =3999.871441
+job ID 298	pred ID-1	Pred end =0.000000	 ID start =3448.997875
+job ID 299	pred ID295	Pred start= 3870.563777	 exec time =31.666667 	 pred end= 3902.230444	 ID start =3925.045288
+job ID 301	pred ID295	Pred start= 3870.563777	 exec time =31.666667 	 pred end= 3902.230444	 ID start =3945.306663
+job ID 302	pred ID292	Pred start= 2584.396778	 exec time =22.500000 	 pred end= 2606.896778	 ID start =2681.896778
+error -1
+job ID 304	pred ID297	Pred start= 3999.871441	 exec time =27.027027 	 pred end= 4026.898468	 ID start =4026.898468
+job ID 305	pred ID290	Pred start= 3927.000641	 exec time =18.306022 	 pred end= 3945.306663	 ID start =3956.568824
+job ID 306	pred ID287	Pred start= 3351.351351	 exec time =25.675676 	 pred end= 3377.027027	 ID start =4035.563776
+job ID 307	pred ID-1	Pred end =0.000000	 ID start =3429.729730
+job ID 308	pred ID292	Pred start= 2584.396778	 exec time =22.500000 	 pred end= 2606.896778	 ID start =3906.350399
+job ID 309	pred ID-1	Pred end =0.000000	 ID start =3405.000000
+job ID 310	pred ID292	Pred start= 2584.396778	 exec time =22.500000 	 pred end= 2606.896778	 ID start =3907.050264
+error -1
+job ID 311	pred ID310	Pred start= 3907.050264	 exec time =24.324324 	 pred end= 3931.374588	 ID start =3931.374588
+error -1
+job ID 312	pred ID311	Pred start= 3931.374588	 exec time =22.471910 	 pred end= 3953.846498	 ID start =3953.846498
+job ID 313	pred ID-1	Pred end =0.000000	 ID start =3536.559282
+job ID 314	pred ID298	Pred start= 3448.997875	 exec time =21.348315 	 pred end= 3470.346190	 ID start =3945.817387
+job ID 315	pred ID-1	Pred end =0.000000	 ID start =3536.991357
+job ID 316	pred ID-1	Pred end =0.000000	 ID start =3556.899306
+job ID 317	pred ID299	Pred start= 3925.045288	 exec time =20.772099 	 pred end= 3945.817387	 ID start =3945.817387
+error -1
+job ID 319	pred ID309	Pred start= 3405.000000	 exec time =31.666667 	 pred end= 3436.666667	 ID start =2731.896778
+error -1
+job ID 320	pred ID314	Pred start= 3945.817387	 exec time =19.733494 	 pred end= 3965.550881	 ID start =3161.896778
+error -1
+job ID 321	pred ID316	Pred start= 3556.899306	 exec time =18.306022 	 pred end= 3575.205328	 ID start =2779.396778
+job ID 322	pred ID307	Pred start= 3429.729730	 exec time =27.027027 	 pred end= 3456.756757	 ID start =3988.400190
+job ID 323	pred ID-1	Pred end =0.000000	 ID start =3542.792793
+job ID 324	pred ID322	Pred start= 3988.400190	 exec time =19.733494 	 pred end= 4008.133684	 ID start =4017.891442
+job ID 327	pred ID320	Pred start= 3161.896778	 exec time =22.500000 	 pred end= 3184.396778	 ID start =3996.543127
+job ID 328	pred ID317	Pred start= 3945.817387	 exec time =27.027027 	 pred end= 3972.844414	 ID start =4008.360738
+error -1
+job ID 329	pred ID313	Pred start= 3536.559282	 exec time =20.340024 	 pred end= 3556.899306	 ID start =2755.646778
+job ID 330	pred ID-1	Pred end =0.000000	 ID start =2631.896778
+job ID 331	pred ID-1	Pred end =0.000000	 ID start =3515.290009
+job ID 332	pred ID312	Pred start= 3953.846498	 exec time =18.306022 	 pred end= 3972.152520	 ID start =3976.318408
+job ID 333	pred ID329	Pred start= 2755.646778	 exec time =23.750000 	 pred end= 2779.396778	 ID start =4008.133684
+job ID 334	pred ID331	Pred start= 3515.290009	 exec time =22.471910 	 pred end= 3537.761919	 ID start =4027.683761
+error -1
+job ID 335	pred ID327	Pred start= 3996.543127	 exec time =21.348315 	 pred end= 4017.891442	 ID start =4017.891442
+job ID 336	pred ID-1	Pred end =0.000000	 ID start =3724.702354
+job ID 338	pred ID329	Pred start= 2755.646778	 exec time =23.750000 	 pred end= 2779.396778	 ID start =2804.396778
+job ID 339	pred ID-1	Pred end =0.000000	 ID start =3735.563777
+job ID 340	pred ID-1	Pred end =0.000000	 ID start =3753.093434
+job ID 341	pred ID-1	Pred end =0.000000	 ID start =3724.617400
+job ID 342	pred ID331	Pred start= 3515.290009	 exec time =22.471910 	 pred end= 3537.761919	 ID start =4039.248467
+job ID 343	pred ID-1	Pred end =0.000000	 ID start =3678.927493
+job ID 344	pred ID-1	Pred end =0.000000	 ID start =3768.897110
+job ID 345	pred ID-1	Pred end =0.000000	 ID start =3780.552467
+job ID 346	pred ID-1	Pred end =0.000000	 ID start =3716.285693
+job ID 347	pred ID339	Pred start= 3735.563777	 exec time =33.333333 	 pred end= 3768.897110	 ID start =4030.982993
+error -1
+job ID 348	pred ID344	Pred start= 3768.897110	 exec time =35.000000 	 pred end= 3803.897110	 ID start =2998.146778
+job ID 349	pred ID348	Pred start= 2998.146778	 exec time =33.750000 	 pred end= 3031.896778	 ID start =4039.239756
+error -1
+job ID 351	pred ID331	Pred start= 3515.290009	 exec time =22.471910 	 pred end= 3537.761919	 ID start =2834.396778
+job ID 353	pred ID-1	Pred end =0.000000	 ID start =3738.096397
+job ID 355	pred ID-1	Pred end =0.000000	 ID start =3759.907101
+error -1
+job ID 356	pred ID355	Pred start= 3759.907101	 exec time =21.810704 	 pred end= 3781.717805	 ID start =2861.896778
+job ID 357	pred ID-1	Pred end =0.000000	 ID start =2705.646778
+job ID 359	pred ID-1	Pred end =0.000000	 ID start =3798.933636
+job ID 362	pred ID-1	Pred end =0.000000	 ID start =3748.297860
+error -1
+job ID 363	pred ID359	Pred start= 3798.933636	 exec time =20.340024 	 pred end= 3819.273660	 ID start =3184.396778
+error -1
+job ID 365	pred ID355	Pred start= 3759.907101	 exec time =21.810704 	 pred end= 3781.717805	 ID start =2889.396778
+job ID 368	pred ID-1	Pred end =0.000000	 ID start =3781.717805
+job ID 369	pred ID-1	Pred end =0.000000	 ID start =3802.489904
+job ID 372	pred ID-1	Pred end =0.000000	 ID start =3723.266480
+job ID 374	pred ID-1	Pred end =0.000000	 ID start =3822.223398
+job ID 380	pred ID-1	Pred end =0.000000	 ID start =3810.045502
+job ID 383	pred ID-1	Pred end =0.000000	 ID start =3842.995497
+job ID 386	pred ID-1	Pred end =0.000000	 ID start =3819.273660
+error -1
+job ID 388	pred ID380	Pred start= 3810.045502	 exec time =20.340024 	 pred end= 3830.385526	 ID start =3058.146778
+error -1
+job ID 392	pred ID374	Pred start= 3822.223398	 exec time =20.772099 	 pred end= 3842.995497	 ID start =3031.896778
+job ID 398	pred ID-1	Pred end =0.000000	 ID start =3793.241680
+job ID 401	pred ID-1	Pred end =0.000000	 ID start =3886.320593
+job ID 402	pred ID-1	Pred end =0.000000	 ID start =3902.230443
+job ID 405	pred ID-1	Pred end =0.000000	 ID start =2915.646778
+job ID 406	pred ID-1	Pred end =0.000000	 ID start =3879.276732
+job ID 409	pred ID-1	Pred end =0.000000	 ID start =3902.667760
+job ID 410	pred ID-1	Pred end =0.000000	 ID start =2940.646778
+error -1
+job ID 411	pred ID406	Pred start= 3879.276732	 exec time =23.391028 	 pred end= 3902.667760	 ID start =3209.396778
+job ID 414	pred ID-1	Pred end =0.000000	 ID start =3932.160795
+job ID 420	pred ID410	Pred start= 2940.646778	 exec time =35.000000 	 pred end= 2975.646778	 ID start =3081.896778
+job ID 424	pred ID-1	Pred end =0.000000	 ID start =3880.023237
+job ID 430	pred ID-1	Pred end =0.000000	 ID start =3953.846498
+job ID 432	pred ID-1	Pred end =0.000000	 ID start =3970.563776
+job ID 434	pred ID-1	Pred end =0.000000	 ID start =3972.844414
+job ID 436	pred ID-1	Pred end =0.000000	 ID start =3108.146778
+job ID 439	pred ID-1	Pred end =0.000000	 ID start =4003.897109
+job ID 446	pred ID-1	Pred end =0.000000	 ID start =3965.646687
+job ID 449	pred ID-1	Pred end =0.000000	 ID start =3965.550881
+job ID 452	pred ID-1	Pred end =0.000000	 ID start =3131.896778
+sum = 89064.205346

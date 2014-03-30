@@ -1,0 +1,46 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+class gridlet{
+
+}
+
+
+int main(int argc, char *argv[]){
+
+FILE *fp;
+int i,a,b,g,j=0,flag=0;
+double c,d=0.0,e,f,sum=0.0,start,end, uptime,utilization;
+char state[20];
+
+//printf("%s %s\n", argv[0], argv[1]);
+
+fp = fopen(argv[1],"r");
+
+if(fp){
+	while(fgetc(fp)!=EOF){
+		fseek(fp,-1,SEEK_CUR);
+		fscanf(fp,"%d\t",&a);
+		fscanf(fp,"%d\t",&b);
+		fscanf(fp,"%lf\t",&c);
+		if(flag==0){
+			start=c;
+			flag=1;
+		}
+		fscanf(fp,"%lf\t",&d);
+		sum+=d;
+		fscanf(fp,"%lf\t",&e);
+		fscanf(fp,"%lf\t",&f);
+		fscanf(fp,"%d\t",&g);
+		fscanf(fp,"%d\t",&g);
+		fscanf(fp,"%s",state);
+	}
+	end=c+d;
+}
+fclose(fp);
+	uptime= end-start;
+	utilization = sum / uptime * 100;
+	
+	printf("%s\t%lf\t%lf\t%lf\t%lf \t\n",argv[1],start,end,uptime,utilization);
+	return 0;
+}
