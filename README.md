@@ -53,5 +53,3 @@ $ mpiexec -disable-hostname-propagation -hostfile hostfile.txt ./modjsg 0 100 40
 
 To configure the selection criteria of schedule after final population of efficient schedule has been generated modify weight fun[] in report best() function in report.c file.
 
-###### Note: ######
-Data sets are in other location 
