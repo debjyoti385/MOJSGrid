@@ -35,16 +35,16 @@ $ ./resource
 
 ##### Command to run the job scheduler follows : #####
 ```
-mpiexec -disable-hostname-propagation -hostfile hostfile.txt ./modjsg <plot>
-<NUM JOBS> <POPULATION> <GENERATION> <RANDOM INTEGER>
+mpiexec -disable-hostname-propagation -hostfile hostfile.txt ./modjsg `plot`
+`NUM JOBS` `POPULATION` `GENERATION` `RANDOM INTEGER`
 ```
-* <plot> - 0 (run without GNUPLOT), 1 (without GNUPLOT)
-* <NUM JOBS> - Number of jobs to be scheduled on each run of the job
+* `plot` - 0 (run without GNUPLOT), 1 (without GNUPLOT)
+* `NUM JOBS` - Number of jobs to be scheduled on each run of the job
 scheduler module. Range [100,1000] multiplier of 4.
-* <POPULATION> - Chromosome population for genetic algorithm range,
+* `POPULATION` - Chromosome population for genetic algorithm range,
 Range [200,1000]
-* <GENERATION> - Iteration in genetic algorithm, Range [50,300]
-* <RANDOM INTEGER> - Any integer for randomize function seed.
+* `GENERATION` - Iteration in genetic algorithm, Range [50,300]
+* `RANDOM INTEGER` - Any integer for randomize function seed.
 e.g. 
 ```
 $ mpiexec -disable-hostname-propagation -hostfile hostfile.txt ./modjsg 0 100 400 300 432421
